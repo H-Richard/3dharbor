@@ -54,7 +54,7 @@ const Hero = () => (
       Book Now: 
     </h3>
     <div className="text-xl leading-tight tracking-tight">
-        (647)-967-5939
+        (647)-957-5939
       <br />
         3dharbor@gmail.com
     </div>
