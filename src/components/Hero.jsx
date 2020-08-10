@@ -31,7 +31,7 @@ const Hero = () => (
       >
         <span>3000 - 5000 Sq. Ft</span>
         <span className="text-blue-600">
-          $170
+          $180
         </span>
       </div>
       <div
