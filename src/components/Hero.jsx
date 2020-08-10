@@ -9,31 +9,37 @@ const Hero = () => (
       </span>
       <br />
     </h2>
-    <h3 className="text-2xl sm:text-3xl font-medium leading-tight tracking-tight text-gray-900">
+    <h3 className="text-xl sm:text-2xl font-medium leading-tight tracking-tight text-gray-900 sm:w-4/5 md:w-3/5">
       <div
-        style={{
-          justifyContent: "space-between",
-          width: "60%",
-          display: "flex",
-          flexDirection: "row",
-        }}
+        className="flex flex-row justify-between w-full"
       >
         <span>Under 1500 Sq. Ft</span>
-        <span className="text-blue-600" style={{ marginLeft: "20%" }}>
+        <span className="text-blue-600">
           $70
         </span>
       </div>
       <div
-        style={{
-          justifyContent: "space-between",
-          width: "60%",
-          display: "flex",
-          flexDirection: "row",
-        }}
+        className="flex flex-row justify-between w-full"
       >
-        <span>1500 - 5000 Sq. Ft</span>
-        <span className="text-blue-600" style={{ marginLeft: "20%" }}>
+        <span>1500 - 3000 Sq. Ft</span>
+        <span className="text-blue-600">
           $120
+        </span>
+      </div>
+      <div
+        className="flex flex-row justify-between w-full"
+      >
+        <span>3000 - 5000 Sq. Ft</span>
+        <span className="text-blue-600">
+          $170
+        </span>
+      </div>
+      <div
+        className="flex flex-row justify-between w-full"
+      >
+        <span>Over 5000 Sq. Ft</span>
+        <span className="text-blue-600">
+          Please Inquire
         </span>
       </div>
     </h3>
