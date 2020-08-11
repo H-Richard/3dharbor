@@ -3,7 +3,7 @@ import React from "react"
 const Hero = () => (
   <div className="container py-12 lg:pb-16">
     <h2 className="text-3xl sm:text-4xl font-medium leading-tight tracking-tight text-gray-900">
-      Realtor Special Offer{" "}
+      3D Virtual Tour Special Offer{" "}
       <span role="img" aria-label="waving hand">
         🔥
       </span>
@@ -53,6 +53,10 @@ const Hero = () => (
       <span>
         2. All prices include Branded/Unbranded Matterport 3D Virtual Tour Link
         and Up to 40 HDR Photos.
+      </span>
+      <br/>
+      <span>
+        3. All prices may be subject to change without notice.
       </span>
     </h3>
     <br />
